@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Instructions - VidMoLyze</title>
+<meta name="description" content="How to record, calibrate, track and export motion data with VidMoLyze.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="bar"><a class="brand" href="./">VidMoLyze</a><nav><a href="./">Home</a><a href="instructions.html" aria-current="page">Instructions</a><a href="privacy-policy.html">Privacy Policy</a><a href="feedbacksupport.html">Feedback/Support</a><a href="about.html">About</a></nav></div></header>
+<main>
+<h1>Instructions</h1>
+<p>Here is a video walkthrough of using the VidMoLyze app: <a href="https://youtu.be/y6qClqCq61I">https://youtu.be/y6qClqCq61I</a></p>
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/y6qClqCq61I" title="VidMoLyze walkthrough" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+<p>If you prefer a written tutorial, here you go:</p>
+<ul>
+<li>Start with an application for video motion analysis. I recommend recording car traffic. Just record long enough to capture one car passing in front of you (while you're standing on the sidewalk). Ensure that your view is wide enough so you can capture the car moving for several car lengths. Do not attempt to pan to follow the car's movement. Let the car move through the viewing frame. Make sure there is something in the frame that you know the length of. If there are no landmarks, consider looking up the length of the car that you recorded.</li>
+<li>In the upper right corner of the main menu screen, there is a video record button.</li>
+<li>Use that button to get to the recording screen and then start the recording and stop the recording. Don't record for too long- this app is designed to capture motion for about 30 seconds max.</li>
+<li>After you finish recording, go to the list of videos and long press the video you just recorded.</li>
+<li>You should get the option to Calibrate.</li>
+<li>In the Calibrate screen, you will have the option to enter a starting point. In the car example above, you could click on the front end of the car for the starting point and then the rear end of the car for the ending point. After you click to add the starting point, you will get a positioning reticle. Press the reticle and it should pop up above your finger and allow you to drag it to the front end of the car. Zoom in to make sure your calibration points are placed accurately. Repeat the procedure for the end point. After you complete this procedure, the app will know how far the car moved in real world terms. Hit Save.</li>
+<li>Next long press on the video again. This time you should get the option to add the origin and axes. Click the button to do so and then press the reticle that appears so that you can drag it to where you want the origin of the graph to be. The origin should be where the front end of the car first appears. You then need to click on the x-axis to rotate it into the correct position. If the car is moving from left to right, then you want the x-axis on the right in line with the movement of the car. If the car is moving from right to left, you should pull the x-axis to the left so that leftward movement is considered positive. Hit Save.</li>
+<li>Long press on the video again. Now you can add points to track the object in motion. You will use the same reticle system to add points to track. For consistency, you must track the same point on the object of interest. If you are tracking a tennis ball, then you should always track the center. For a car, I suggest that you track the center of the leading wheel. You must select a point and then click next. Do this several times so that you can get a good average velocity. Zoom in so your point placement is accurate. After adding several points, hit Save.</li>
+<li>Long press on the video again and now you can export your data. The data will come out in a CSV (comma separated value) format and can be imported by any spreadsheet program including Numbers, Excel or Google Sheets. The data that you get will include the actual measured data including time, x position and y position and calculated data including vx, vy, ax and ay (velocity and acceleration). For the car example, you can use time and x position for graphing and analyzing the car's speed. If you are analyzing a dropped object, you should graph time and y position.</li>
+</ul>
+<p class="note"><strong>Note:</strong> if you select a video from Photos, you may not get the same quality for calibrating and tracking. The built-in video capturing software has a default frame rate that is high to reduce blurring. If you have problems with an imported video, you might want to re-record using the VidMoLyze built-in video recorder.</p>
+</main>
+<footer>&copy; 2026 Michael Weingarden &middot; VidMoLyze</footer>
+</body>
+</html>
